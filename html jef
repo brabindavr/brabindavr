@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E aí, Jef</title>
+</head>
+<body>
+    <h1>E aí, Jef!</h1>
+    <h2>Como tá aí na England?</h2>
+    
+    <form action="enviar.php" method="post">
+        <label>
+            <input type="radio" name="estado" value="bem"> Bem
+        </label><br>
+        <label>
+            <input type="radio" name="estado" value="mal"> Mal
+        </label><br>
+        <label>
+            <input type="radio" name="estado" value="outra"> Outra
+        </label>
+        <br>
+        <textarea name="outra_resposta" placeholder="Escreva sua resposta aqui..." rows="4" cols="50"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
